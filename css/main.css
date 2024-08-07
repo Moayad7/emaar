@@ -1,0 +1,221 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.cairo-200 {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.cairo-400 {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.cairo-600 {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.cairo-800 {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.almarai-light {
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .almarai-regular {
+    font-family: "Almarai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .almarai-bold {
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .almarai-extrabold {
+    font-family: "Almarai", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Rawafed';
+    src: url(../assets/fonts/Rawafed.Zainab.otf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .rawafed{
+    font-family: "Rawafed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .rawafed-bold{
+    font-family: "Rawafed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'djadli';
+    src: url(../assets/fonts/djadli-linearhour.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  .djadli{
+    font-family: "djadli", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+
+  /* .swiper {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+    font-weight: bold;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .swiper-pagination-bullet {
+    background: #fff;
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #4F46E5;
+  } */
+
+  .swiper-wrapper {
+    width: 100%;
+    height: max-content !important;
+    padding-bottom: 64px !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+  }
+  
+  .swiper-pagination-bullet {
+    background: #08466f;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #08466f !important;
+  }
+
+.swiper-pagination span{
+  background: #082b3f !important;
+}
+
+.swiper-container {
+  width: 100%;
+  /* height: 500px; */
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background: #fff;
+  color: #000;
+}
+
+.swiper-pagination {
+  bottom: 10px;
+}
+
+
+
+
+
+
+.loader {
+  position: relative;
+  width: 300px;
+  height: 3px;
+  /* background: linear-gradient(to right, transparent, #212121, transparent); */
+  overflow: hidden;
+}
+
+.loader::after {
+  content: '';
+  position: absolute;
+  translate: -200px 0;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #212121, transparent);
+  animation: slide 1.5s infinite;
+}
+
+@keyframes slide {
+  100% {
+    translate: 300px 0;
+  }
+}
