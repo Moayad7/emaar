@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="assets/images/logo/logo_primary.png">
-  <title>Vilon</title>
+  <link rel="icon" type="image/png" href="assets/images/logo/emaar_logo-01.svg">
+  <title>Emaar</title>
   <link rel="stylesheet" href="css/main.css">
   <link href="css/aos.css" rel="stylesheet">
   <link rel="stylesheet"
@@ -20,31 +20,95 @@
 
 <body class="bg-[#d6e1e5] almarai-regular ">
 
-<!-- <div id="preloader" class="-translate-y-0 duration-[1.5s] overflow-hidden bg-[#d6e1e5]  fixed flex top-0 z-[9999999999999] h-screen w-full">
+  <!-- <div id="preloader" class="-translate-y-0 duration-[1.5s] overflow-hidden bg-[#d6e1e5]  fixed flex top-0 z-[9999999999999] h-screen w-full">
   <div class="flex flex-col gap-5 justify-center items-center w-full ">
       <img class="w-60 " width="100%" height="100%" src="assets/images/logo/VILON-05.png" alt="logo">
       <div class="loader w-60 "></div>
   </div>
 </div> -->
-  
 
-  
+
+
   <header class="overflow-hidden ">
     <nav
-    class="flex justify-center border-b border-[#08466f] bg-[#082b3f55] absolute w-full h-20 lg:h-auto top-0 z-[99999]">
-    <span id="navbar-toggler"
-      class="z-[9999] lg:hidden material-symbols-outlined text-[#d6e1e5] text-3xl lg:text-4xl absolute top-5 right-3">
-      menu
-    </span>
-    <div class="z-[9] w-40 absolute flex justify-center my-4">
-      <a href="index.html" class="w-12  lg:-translate-x-[10px]">
-        <img width="100%" height="100%" src="assets/images/logo/emaar_logo-02.svg" alt="logo">
+      class="flex justify-center border-b border-[#08466f] bg-[#082b3f55] absolute w-full h-20 lg:h-auto top-0 z-[99999]">
+      <span id="navbar-toggler"
+        class="z-[9999] lg:hidden material-symbols-outlined text-[#d6e1e5] text-3xl lg:text-4xl absolute top-5 right-3">
+        menu
+      </span>
+      <div class="z-[9] w-40 absolute flex justify-center my-4">
+        <a href="index.html" class="w-12  lg:-translate-x-[10px]">
+          <img width="100%" height="100%" src="assets/images/logo/emaar_logo-02.svg" alt="logo">
+        </a>
+      </div>
+      <div class="flex justify-between items-center py-4 px-20 z-[999] w-full">
+
+        <ul class="hidden lg:flex items-center gap-3 text-xl">
+
+          <li><a href="mailto:info@emaar.com"
+              class="border-2 border-[#d6e1e5] hover:bg-[#d6e1e5] duration-200 text-[#d6e1e5] hover:text-[#082b3f] p-3  items-end flex"><span
+                class=" material-symbols-outlined">
+                mail
+              </span></a></li>
+          <li><a href="tel:+96692000****"
+              class="border-2 border-[#d6e1e5] hover:bg-[#d6e1e5] duration-200 text-[#d6e1e5] hover:text-[#082b3f] p-3  items-end flex"><span
+                class=" material-symbols-outlined">
+                call
+              </span></a></li>
+        </ul>
+
+        <ul id="navbarListTop" class="hidden lg:flex items-center gap-6">
+          <!-- api -->
+        </ul>
+      </div>
+    </nav>
+
+
+    <nav id="navbar"
+      class=" -translate-y-[500px] flex justify-center fixed w-full top-0 duration-500 bg-[#08466f] shadow-lg z-[99999]">
+      <span id="navbar-toggler1"
+        class="z-[9999] lg:hidden material-symbols-outlined text-[#d6e1e5] text-3xl lg:text-4xl absolute top-5 right-3">
+        menu
+      </span>
+
+      <div class="flex justify-between items-center py-3 px-20 z-[999] w-full">
+
+        <ul class="hidden lg:flex items-center gap-3 text-xl">
+
+          <li><a href="mailto:info@emaar.com"
+              class="border-2 border-[#d6e1e5] hover:bg-[#d6e1e5] duration-200 text-[#d6e1e5] hover:text-[#082b3f] p-3  items-end flex"><span
+                class=" material-symbols-outlined">
+                mail
+              </span></a></li>
+          <li><a href="tel:+96692000****"
+              class="border-2 border-[#d6e1e5] hover:bg-[#d6e1e5] duration-200 text-[#d6e1e5] hover:text-[#082b3f] p-3  items-end flex"><span
+                class=" material-symbols-outlined">
+                call
+              </span></a></li>
+        </ul>
+        <a href="index.html" class="w-12  -translate-x-[85px] lg:-translate-x-[90px]">
+          <img width="100%" height="100%" src="assets/images/logo/emaar_logo-02.svg" alt="logo">
+        </a>
+        <ul id="navbarList" class="hidden lg:flex items-center gap-6">
+          <!-- api -->
+        </ul>
+
+      </div>
+    </nav>
+
+    <nav id="navbar_list"
+      class="-left-[2080px] duration-500 fixed  z-[99999]  grid w-full bg-gradient-to-b from-[#082b3f] to-[#08466f11] bg-[#082b3f] py-12 gap-6">
+      <span id="navbar-toggler2" class="material-symbols-outlined text-[#d6e1e5] text-4xl absolute top-2 right-2">
+        close
+      </span>
+      <a href="index.html" class="">
+        <img class="px-24" width"100%" height="100%" src="assets/images/logo/emaar_logo-02.svg" alt="logo">
       </a>
-    </div>
-    <div class="flex justify-between items-center py-4 px-20 z-[999] w-full">
+      <ul id="mobileNavbarList" class="grid lg:hidden items-center gap-6 text-center">
+        <!-- api -->
+      </ul>
 
-      <ul class="hidden lg:flex items-center gap-3 text-xl">
-
+      <ul class="flex  justify-center gap-3 text-xl">
         <li><a href="mailto:info@emaar.com"
             class="border-2 border-[#d6e1e5] hover:bg-[#d6e1e5] duration-200 text-[#d6e1e5] hover:text-[#082b3f] p-3  items-end flex"><span
               class=" material-symbols-outlined">
@@ -56,71 +120,7 @@
               call
             </span></a></li>
       </ul>
-
-      <ul id="navbarListTop" class="hidden lg:flex items-center gap-6">
-        <!-- api -->
-      </ul>
-    </div>
-  </nav>
-
-
-  <nav id="navbar"
-    class=" -translate-y-[500px] flex justify-center fixed w-full top-0 duration-500 bg-[#08466f] shadow-lg z-[99999]">
-    <span id="navbar-toggler1"
-      class="z-[9999] lg:hidden material-symbols-outlined text-[#d6e1e5] text-3xl lg:text-4xl absolute top-5 right-3">
-      menu
-    </span>
-
-    <div class="flex justify-between items-center py-3 px-20 z-[999] w-full">
-
-      <ul class="hidden lg:flex items-center gap-3 text-xl">
-
-        <li><a href="mailto:info@emaar.com"
-            class="border-2 border-[#d6e1e5] hover:bg-[#d6e1e5] duration-200 text-[#d6e1e5] hover:text-[#082b3f] p-3  items-end flex"><span
-              class=" material-symbols-outlined">
-              mail
-            </span></a></li>
-        <li><a href="tel:+96692000****"
-            class="border-2 border-[#d6e1e5] hover:bg-[#d6e1e5] duration-200 text-[#d6e1e5] hover:text-[#082b3f] p-3  items-end flex"><span
-              class=" material-symbols-outlined">
-              call
-            </span></a></li>
-      </ul>
-      <a href="index.html" class="w-12  -translate-x-[85px] lg:-translate-x-[90px]">
-        <img width="100%" height="100%" src="assets/images/logo/emaar_logo-02.svg" alt="logo">
-      </a>
-      <ul id="navbarList" class="hidden lg:flex items-center gap-6">
-        <!-- api -->
-      </ul>
-
-    </div>
-  </nav>
-
-  <nav id="navbar_list"
-    class="-left-[2080px] duration-500 fixed  z-[99999]  grid w-full bg-gradient-to-b from-[#082b3f] to-[#08466f11] bg-[#082b3f] py-12 gap-6">
-    <span id="navbar-toggler2" class="material-symbols-outlined text-[#d6e1e5] text-4xl absolute top-2 right-2">
-      close
-    </span>
-    <a href="index.html" class="">
-      <img class="px-24" width"100%" height="100%" src="assets/images/logo/emaar_logo-02.svg" alt="logo">
-    </a>
-    <ul id="mobileNavbarList" class="grid lg:hidden items-center gap-6 text-center">
-      <!-- api -->
-    </ul>
-
-    <ul class="flex  justify-center gap-3 text-xl">
-      <li><a href="mailto:info@emaar.com"
-          class="border-2 border-[#d6e1e5] hover:bg-[#d6e1e5] duration-200 text-[#d6e1e5] hover:text-[#082b3f] p-3  items-end flex"><span
-            class=" material-symbols-outlined">
-            mail
-          </span></a></li>
-      <li><a href="tel:+96692000****"
-          class="border-2 border-[#d6e1e5] hover:bg-[#d6e1e5] duration-200 text-[#d6e1e5] hover:text-[#082b3f] p-3  items-end flex"><span
-            class=" material-symbols-outlined">
-            call
-          </span></a></li>
-    </ul>
-  </nav>
+    </nav>
 
   </header>
 
@@ -158,40 +158,40 @@
   <main class="">
 
     <div class=" bg-[#082b3f]">
-        <div class="h-80  bg-[#082b3f88]">
-            <div class="h-full p-8 pt-16 flex flex-col items-center justify-center gap-4">
-                <p class="cairo-600 text-center text-2xl lg:text-4xl text-[#d6e1e5]" data-aos="fade-up"
-                data-aos-duration="1000">
-                شد الوجه اللاجراحي
-              </p>
-                
-              </div>
+      <div class="h-80  bg-[#082b3f88]">
+        <div class="h-full p-8 pt-16 flex flex-col items-center justify-center gap-4">
+          <p class="cairo-600 text-center text-2xl lg:text-4xl text-[#d6e1e5]" data-aos="fade-up"
+            data-aos-duration="1000">
+            دراسات الجدوى والاقتصاد
+          </p>
+
         </div>
+      </div>
     </div>
     <div class="grid place-items-center py-8 px-8 lg:px-32">
-        <div class="grid lg:grid-cols-2 gap-8 place-items-center text-center ">
-            <div class="bg-[url('assets/images/services/شد_الوجه.jpeg')] bg-cover bg-center w-full h-80" data-aos="fade-up" data-aos-duration="1000">
+      <div class="grid lg:grid-cols-2 gap-8 place-items-center text-center ">
+        <div style="background-image: url('assets/images/services/دراسات\ الجدوى\ والاقتصاد.jpg');" class="bg-[url('assets/images/services/دراسات الجدوى والاقتصاد.jpg')] bg-cover bg-center w-full h-80" data-aos="fade-up"
+          data-aos-duration="1000">
 
-            </div>
-            <p class="text-xl" data-aos="fade-up" data-aos-duration="1000">
-                هي أحد التقنيات الحديثة في التجميل ، من خلال تحديد درجة الترهّل لدى المراجعة ، و البحث عن أفضل الحلول الفعالة الغير جراحية لإستعادة توازن الوجه ، و إعادته لبصمته الجمالية ..
-
-                يتم عادة تقييم الحالة مبدئيا في العيادة ، ثم إختيار الحلول سواء كانت إبر شد الوجه بالمواد المؤقتة و اللتي قد تمتد مفعولها إلى سنتين ، أو التقنيات الحديثة مثل أجهزة الموجات الصوتية المركزّة أو غيرها ..
-                
-                أحد الإجراءات اللتي نالت رضا عالي لدى المراجعين ، حيث لا يعُطي أي امتلاء أبدًا ، و يُحقِّق الشد المرغوب به لدى المراجع بشكل فوري ..
-            </p>
         </div>
+        <p class="text-xl" data-aos="fade-up" data-aos-duration="1000">
+          دراسات الجدوى والاقتصاد هي دراسات تحليلية تهدف إلى تقييم الجدوى الاقتصادية لمشروع أو استثمار ما. تقييم الجدوى
+          الاقتصادية لمشروع أو استثمار ما. تحدد المخاطر المحتملة وتقييمها. تقييم العوائد المتوقعة من الاستثمار. تقييم
+          التكلفة والمنافع الاقتصادية. تقييم السوق والبيئة الاقتصادية. تسمح باتخاذ قرارات مستنيرة بشأن الاستثمارات
+          والمشاريع. </p>
+      </div>
     </div>
 
   </main>
 
   <div class="lg:opacity-80 lg:hover:opacity-100 duration-200">
-      <a class="z-[9999] shadow fixed bottom-6 right-6 lg:bottom-10 lg:right-10  bg-[#082b3f] w-12 h-12 rounded-full grid p-3 place-items-center text-[#ded0c5] "
-        href="https://wa.me/+96659000****" target="_blank"><img src="assets/images/socialMedia/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.svg" alt=""></a>
-    </div>
+    <a class="z-[9999] shadow fixed bottom-6 right-6 lg:bottom-10 lg:right-10  bg-[#082b3f] w-12 h-12 rounded-full grid p-3 place-items-center text-[#ded0c5] "
+      href="https://wa.me/+96659000****" target="_blank"><img
+        src="assets/images/socialMedia/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.svg" alt=""></a>
+  </div>
 
 
- <footer>
+  <footer>
     <div class="bg-[#082b3f] ">
       <div class="flex lg:grid-cols-12 bg-gradient-to-b from-[#082b3f] to-[#08466f22] py-8 lg:py-0 items-center gap-8">
         <div class=" h-40 overflow-hidden hidden lg:block relative flex justify-center items-start ">
