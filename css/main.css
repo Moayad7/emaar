@@ -192,6 +192,11 @@ html{
 }
 
 
+.skyLines-bg{
+  background-image: url(../assets//images/SaudiFuture_Hero_1600x900.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
 
 
