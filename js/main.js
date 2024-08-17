@@ -5,6 +5,14 @@ var toggle = document.getElementById("navbar-toggler");
 var toggle1 = document.getElementById("navbar-toggler1");
 var toggle2 = document.getElementById("navbar-toggler2");
 
+const whatsapp = document.getElementById("whatsapp");
+
+whatsapp.innerHTML = `
+<a class="z-[9999] shadow fixed bottom-6 right-6 lg:bottom-10 lg:right-10  bg-[#082b3f] w-12 h-12 rounded-full grid p-3 place-items-center text-[#ded0c5] "
+        href="https://wa.me/+966530035500" target="_blank"><img src="assets/images/socialMedia/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.svg" alt=""></a>
+`;
+
+
 toggle.onclick = function () {
   Menu();
 };
@@ -124,3 +132,5 @@ document.addEventListener("DOMContentLoaded", () => {
       loader.classList.add("-translate-y-[2000px]");
   }
 });
+
+
