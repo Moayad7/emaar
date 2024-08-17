@@ -38,7 +38,7 @@ const services = [
 
 servicesList.innerHTML = `
              <div class="grid lg:grid-cols-2 gap-8 place-items-center text-center ">
-        <div style="background-image: url('assets/images/services/0.jpg');" class="bg-[url('assets/images/services/${servicesId}.jpg')] bg-cover bg-center w-full h-80" data-aos="fade-up"
+        <div style="background-image: url('assets/images/services/${servicesId}.jpg');" class=" bg-cover bg-center w-full h-80" data-aos="fade-up"
           data-aos-duration="1000">
 
         </div>
